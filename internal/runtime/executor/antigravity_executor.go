@@ -51,7 +51,7 @@ const (
 	antigravityAuthType            = "antigravity"
 	refreshSkew                    = 3000 * time.Second
 	antigravityCreditsRetryTTL     = 5 * time.Hour
-	systemInstruction = "You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding.You are pair programming with a USER to solve their coding task. The task may require creating a new codebase, modifying or debugging an existing codebase, or simply answering a question.**Absolute paths only****Proactiveness**"
+	systemInstruction = "You are Antigravity, an AI coding assistant."
 )
 
 type antigravity429Category string
